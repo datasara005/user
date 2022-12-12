@@ -19,8 +19,9 @@
 
         <EditText
             android:id="@+id/Email"
+            android:background="#57676767"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="40dp"
             android:hint="Email*"
             android:textColorHint="#FF8585"
             android:inputType="textEmailAddress" >
@@ -28,9 +29,11 @@
         </EditText>
 
         <EditText
+            android:layout_marginTop="20dp"
             android:id="@+id/Password"
+            android:background="#57676767"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="40dp"
             android:hint="Password*"
             android:textColorHint="#FF8585"
             android:inputType="textPassword" >
